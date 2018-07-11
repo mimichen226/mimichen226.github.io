@@ -13,17 +13,18 @@
         <img src="images/GWC_logo.png" width="150" height="60">
         <img src="images/blizzard_logo.png" width="150" height="60">
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="maps.html">Maps</a></li>
+          <li><a href="#">Maps</a></li>
           <li><a href="https://poptropica.com" target="_blank">Games</a></li>
         </ul>
       </nav>
-      <div id="carousel_slides">
-        <img class="slides" src="images/overwatch.jpeg">
-        <img class="slides" src="images/story_franchise.jpg">
+      <div class="row" id="map">
+        <h1>Where are we?</h1>
+        <div id="googleMap"></div>
       </div>
-      <script src="slideshow.js"></script>
+      <script src="maps.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNDJ52RvDvi30Veinj0EPb2iMFH_AkmNc&callback=myMap"></script>
     </div>
   </body>
 </html>
