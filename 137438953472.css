@@ -1,0 +1,9 @@
+.big-btn {
+	background-color: red;
+	color: white;
+	width: 200px;
+	height: 40px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+}
